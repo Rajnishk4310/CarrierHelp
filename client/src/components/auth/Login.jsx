@@ -10,6 +10,7 @@ import { toast } from 'sonner'
 import { useDispatch, useSelector } from 'react-redux'
 import { setAuthUser, setLoading } from '@/redux/authSlice'
 import { Loader2 } from 'lucide-react'
+import { server } from '@/utils/constant'
 
 const Login = () => {
     const [input, setInput] = useState({
@@ -28,7 +29,7 @@ const Login = () => {
         
         try {
             dispatch(setLoading(true));
-            const res = await axios.post("http://localhost:8000/api/v1/user/login", input, {
+            const res = await axios.post(`${server}/api/v1/user/login`, input, {
                 headers: {
                     'Content-Type': 'application/json'
                 },
