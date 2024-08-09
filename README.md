@@ -40,19 +40,4 @@ Carrier Help is a modern job search portal designed to connect recruiters with t
 ### File Upload:
 - **Cloudinary**: Cloud-based image and video management service for uploading and storing media.
 
-### Development Tools:
-- **Nodemon**: Automatically restarts the server during development when file changes are detected.
-- **dotenv**: Loads environment variables from a `.env` file into `process.env`.
 
-## Installation
-
-### Prerequisites:
-- **Node.js**: Ensure you have Node.js installed on your machine (v20.x recommended).
-- **MongoDB**: Set up a MongoDB database (local or cloud-based like MongoDB Atlas).
-
-### Steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/carrier-help.git
-   cd carrier-help
