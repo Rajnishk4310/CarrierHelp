@@ -1,6 +1,6 @@
-# CarrierHelp
+# CareerHelp
 
-Carrier Help is a modern job search portal designed to connect recruiters with top candidates and help job seekers find their ideal positions. The platform offers powerful tools for job posting, searching, and candidate selection, making the hiring process seamless for both recruiters and candidates.
+Career Help is a modern job search portal designed to connect recruiters with top candidates and help job seekers find their ideal positions. The platform offers powerful tools for job posting, searching, and candidate selection, making the hiring process seamless for both recruiters and candidates.
 
 
 ## Features
